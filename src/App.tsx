@@ -139,7 +139,7 @@ export default function App() {
                 <div>
                   <h3 className="text-[8px] font-black text-zinc-400 uppercase tracking-widest mb-2">Infrastructure</h3>
                   <div className="flex flex-wrap gap-1.5">
-                    {['Node.js', 'Cloudflare', 'Git', 'REST APIs', 'MySQL'].map(s => <SkillBadge key={s}>{s}</SkillBadge>)}
+                    {['Node.js', 'Cloudflare', 'Git', 'REST APIs', 'MySQL', 'Firebase'].map(s => <SkillBadge key={s}>{s}</SkillBadge>)}
                   </div>
                 </div>
               </div>
