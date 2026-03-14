@@ -18,7 +18,8 @@ import {
   Briefcase,
   Layers,
   ChevronRight,
-  ExternalLink
+  ExternalLink,
+  Send
 } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -98,8 +99,11 @@ export default function App() {
             <a href="mailto:info@amitdas.site" className="flex items-center justify-end gap-2 text-[10px] font-bold text-zinc-600 hover:text-zinc-900">
               info@amitdas.site <Mail className="w-3 h-3" />
             </a>
-            <a href="tel:+918101491519" className="flex items-center justify-end gap-2 text-[10px] font-bold text-zinc-600 hover:text-zinc-900">
-              +91 8101491519 <Phone className="w-3 h-3" />
+            {/* <a href="tel:+91XXXXXXXXXX" className="flex items-center justify-end gap-2 text-[10px] font-bold text-zinc-600 hover:text-zinc-900">
+              +91 XXXXXXXXXX <Phone className="w-3 h-3" />
+            </a> */}
+            <a href="https://t.me/AmitDas4321" target="_blank" className="flex items-center justify-end gap-2 text-[10px] font-bold text-zinc-600 hover:text-zinc-900">
+              @AmitDas4321 <Send className="w-3 h-3" />
             </a>
             <div className="flex items-center justify-end gap-2 text-[10px] font-bold text-zinc-600">
               Bankura, WB, India <MapPin className="w-3 h-3" />
