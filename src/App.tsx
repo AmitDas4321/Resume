@@ -190,7 +190,7 @@ export default function App() {
                   <ul className="space-y-2">
                     {[
                       "Architected high-traffic Telegram bots with sub-second response times.",
-                      "Engineered robust backend APIs using Node.js and Cloudflare Workers.",
+                      "Engineered robust backend APIs using PHP, Node.js, and Cloudflare Workers.",
                       "Developed custom automation scripts for complex web interactions.",
                       "Built responsive, mobile-first frontend interfaces for diverse clients."
                     ].map((item, i) => (
