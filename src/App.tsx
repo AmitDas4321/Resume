@@ -228,7 +228,7 @@ export default function App() {
                 <div className="p-4 rounded-xl border border-zinc-100 bg-zinc-50/50 hover:border-zinc-900 transition-colors">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-[11px] font-black text-zinc-900 tracking-tight uppercase">LoveConnect</h3>
-                    <ExternalLink className="w-3 h-3 text-zinc-300" />
+                    <a href="https://api.amitdas.site/Couple%20Chat/" target="_blank" className="text-zinc-400 hover:text-zinc-900"><ExternalLink className="w-3 h-3" /></a>
                   </div>
                   <p className="text-[9px] text-zinc-500 font-medium leading-relaxed mb-3">
                     Secure landing platform with phone-based OTP authentication.
