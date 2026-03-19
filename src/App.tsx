@@ -238,7 +238,7 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="p-4 rounded-xl border border-zinc-100 bg-zinc-50/50 hover:border-zinc-900 transition-colors col-span-2">
+                <div className="p-4 rounded-xl border border-zinc-100 bg-zinc-50/50 hover:border-zinc-900 transition-colors">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-[11px] font-black text-zinc-900 tracking-tight uppercase">NGL-Spammer</h3>
                     <a href="https://github.com/AmitDas4321/NGL-Spammer" target="_blank" className="text-zinc-400 hover:text-zinc-900"><Github className="w-3 h-3" /></a>
@@ -248,6 +248,32 @@ export default function App() {
                   </p>
                   <div className="flex gap-1.5">
                     {['Python', 'Automation', 'Proxies'].map(t => <span key={t} className="text-[7px] font-black uppercase text-zinc-400 border border-zinc-200 px-1 rounded">{t}</span>)}
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-xl border border-zinc-100 bg-zinc-50/50 hover:border-zinc-900 transition-colors">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-[11px] font-black text-zinc-900 tracking-tight uppercase">GitHub Profile Views Counter</h3>
+                    <a href="https://github.com/BlueOrbitDevs/GitHub-Profile-Views-Counter" target="_blank" className="text-zinc-400 hover:text-zinc-900"><Github className="w-3 h-3" /></a>
+                  </div>
+                  <p className="text-[9px] text-zinc-500 font-medium leading-relaxed mb-3">
+                    Simple and customizable GitHub profile view counter using badges to track and display visitor stats.
+                  </p>
+                  <div className="flex gap-1.5">
+                    {['JavaScript', 'GitHub API', 'Badge'].map(t => <span key={t} className="text-[7px] font-black uppercase text-zinc-400 border border-zinc-200 px-1 rounded">{t}</span>)}
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-xl border border-zinc-100 bg-zinc-50/50 hover:border-zinc-900 transition-colors col-span-2">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-[11px] font-black text-zinc-900 tracking-tight uppercase">Feedback Collector (No Backend)</h3>
+                    <a href="https://github.com/AmitDas4321/Collect-Feedback-Without-a-Backend" target="_blank" className="text-zinc-400 hover:text-zinc-900"><Github className="w-3 h-3" /></a>
+                  </div>
+                  <p className="text-[9px] text-zinc-500 font-medium leading-relaxed mb-3">
+                    Collect user feedback without building a backend — uses simple forms and external services to store responses.
+                  </p>
+                  <div className="flex gap-1.5">
+                    {['HTML', 'JS', 'Forms', 'No Backend'].map(t => <span key={t} className="text-[7px] font-black uppercase text-zinc-400 border border-zinc-200 px-1 rounded">{t}</span>)}
                   </div>
                 </div>
 
@@ -261,7 +287,7 @@ export default function App() {
                   <p className="text-[9px] text-zinc-400 font-bold">Explore more projects online</p>
                 </div>
                 <a href="https://amitdas.site" target="_blank" className="bg-zinc-900 text-white px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-zinc-800 transition-colors">
-                  Visit Site
+                  www.amitdas.site <ExternalLink className="w-3 h-3 inline-block ml-1" />
                 </a>
               </div>
             </section>
